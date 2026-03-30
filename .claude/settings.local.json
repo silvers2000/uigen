@@ -8,7 +8,8 @@
       "Bash(cmd /c \"for /f \"\"tokens=5\"\" %a in \\(''netstat -ano ^| findstr :3000''\\) do taskkill /PID %a /F\")",
       "Bash(cmd /c \"taskkill /PID 12724 /F\")",
       "Bash(powershell -Command \"Stop-Process -Id 12724 -Force\")",
-      "Bash(npx vitest:*)"
+      "Bash(npx vitest:*)",
+      "Bash(npm audit:*)"
     ]
   }
 }
